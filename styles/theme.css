@@ -117,7 +117,140 @@ section.hero ul li {
   flex-direction: column;
   width: 33.33%;
 }
-section.hero ul li span {
+/* modern apartment building */
+div.modern-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 130px 0;
+  text-align: center;
+  justify-content: center;
 }
-section.hero ul li p {
+.modern-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.common-span {
+  color: rgb(151 148 144);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.modern-header h2 {
+  width: 66%;
+  text-align: center;
+}
+.modern-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.modern-container .image {
+  width: 50%;
+}
+.modern-container .image img {
+  width: 100%;
+}
+.modern-container .content {
+  width: 40%;
+}
+.modern-flex .content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.modern-flex .content p {
+  color: rgb(151 148 144);
+  text-align: start;
+  line-height: 26px;
+}
+.modern-flex .content p:nth-of-type(1),
+.modern-flex .content p:nth-of-type(2) {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.704);
+}
+.read-more {
+  width: 30%;
+  height: 50px;
+}
+.modern-ul {
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+}
+.modern-ul li {
+  display: flex;
+  gap: 20px;
+  width: 25%;
+  height: auto;
+  padding: 30px;
+  border-radius: 0 15px 15px 15px;
+  justify-content: center;
+  background-color: white;
+  flex-direction: column;
+}
+.modern-ul li img {
+  width: 50px;
+}
+.modern-ul li p {
+  width: 90%;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: start;
+  color: var(--site-soft-black);
+}
+/* location section */
+section.location {
+  background-color: white;
+}
+
+.location-container {
+  display: flex;
+}
+.location-container .image {
+  width: 70%;
+}
+.location-container .image img {
+  width: 100%;
+}
+.location-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.location-content .location-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.location-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.location-list ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.location-top h2 {
+  width: 66%;
+  text-align: center;
+}
+.location-top h2 + p {
+  width: 66%;
+  text-align: center;
+  font-size: 22px;
+  line-height: 30px;
 }
