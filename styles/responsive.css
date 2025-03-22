@@ -77,6 +77,12 @@
     width: 600px;
     margin: 0 auto;
   }
+  .modern-container .image {
+    width: 6cqmin;
+  }
+  .footer-description {
+    width: 50%;
+  }
   ul.apart-info {
     gap: 30px;
   }
@@ -136,6 +142,9 @@
     flex-wrap: wrap;
     padding-left: 50px;
   }
+  p.footer {
+    font-size: 18px;
+  }
   .modern-ul li {
     width: 45%;
   }
@@ -175,6 +184,12 @@
     width: 500px;
     margin: 0 auto;
   }
+  .modern-ul li {
+    width: 75%;
+  }
+  .footer-description {
+    font-size: 14px;
+  }
   footer {
     background-color: var(--background-color);
     width: 400px;
@@ -185,10 +200,16 @@
   .line {
     display: none;
   }
+  p.footer {
+    font-size: 15px;
+  }
   div.footer-container ul li {
     gap: 20px;
     flex-direction: column;
     width: 50%;
+  }
+  div.image {
+    width: 50% !important;
   }
   div.footer-container ul li p {
     margin-bottom: 20px;
@@ -200,7 +221,7 @@
 }
 @media only screen and (max-width: 400px) {
   div.wrapper {
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
   }
 
@@ -208,7 +229,7 @@
     width: 20%;
   }
   .footer-description {
-    width: 50%%;
+    width: 50%;
   }
   p.footer {
     width: 50%;
