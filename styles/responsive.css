@@ -51,6 +51,9 @@
   }
 }
 @media only screen and (max-width: 800px) {
+  div.content {
+    background-color: var(--background-color);
+  }
   footer {
     width: 80%;
     background-color: var(--background-color);
@@ -73,6 +76,10 @@
   div.wrapper {
     width: 600px;
     margin: 0 auto;
+  }
+  h2,
+  h2 em {
+    font-size: 20pt;
   }
   header {
     padding: 0;
