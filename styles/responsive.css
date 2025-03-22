@@ -77,6 +77,24 @@
     width: 600px;
     margin: 0 auto;
   }
+  ul.apart-info {
+    gap: 30px;
+  }
+  header nav {
+    display: none;
+  }
+  header {
+    display: block;
+    text-align: center;
+    height: 50px;
+    padding: 0;
+  }
+  .btn-black {
+    display: none;
+  }
+  div.image {
+    width: 75%;
+  }
   h2,
   h2 em {
     font-size: 20pt;
