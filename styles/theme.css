@@ -108,6 +108,7 @@ section.hero ul {
   flex-direction: row;
   gap: 20px;
   margin: 0px auto;
+
   justify-content: space-evenly;
 }
 section.hero ul li {
@@ -115,8 +116,12 @@ section.hero ul li {
   border-bottom: 2px solid var(--secondary-color);
   padding: 0 0 20px 20px;
   display: flex;
+  gap: 10px;
   flex-direction: column;
   width: 33.33%;
+}
+section.hero ul li span {
+  text-transform: capitalize;
 }
 /* modern apartment building */
 div.modern-container {
@@ -398,6 +403,10 @@ footer {
   color: var(--site-soft-black);
   margin-bottom: 50px;
   margin-top: 40px;
+  text-align: center;
+}
+.footer p {
+  margin-bottom: 10px;
 }
 
 .footer a {
