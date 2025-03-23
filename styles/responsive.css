@@ -115,6 +115,68 @@
   .btn-black {
     gap: 0;
   }
+  .invest-hero-container,
+  .location-second-container,
+  .div.loc-hero-container {
+    flex-direction: column;
+  }
+  .invest-hero-content,
+  div.loc-hero-content,
+  div.loc-hero-image {
+    width: 100%;
+  }
+  .image-invest {
+    width: 100%;
+  }
+  ul.contact-detail {
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+  }
+  div.text {
+    flex-direction: column;
+  }
+  ul.contact-detail li {
+    width: 50%;
+    margin: 0 auto;
+  }
+  input[type="text"],
+  input[type="email"],
+  input.full {
+    width: 100%;
+  }
+  .gallery-wrapper {
+    width: 100%;
+  }
+  .loc-third {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inv-third-container,
+  .loc-hero-container,
+  .location-third-container {
+    flex-direction: column;
+  }
+  .location-second-content,
+  .location-third-content {
+    text-align: center;
+    width: 100%;
+  }
+  ul.inv-first {
+    flex-direction: column;
+  }
+
+  div.invest-second-image,
+  .inv-third-content,
+  .inv-third-image {
+    width: 100%;
+  }
+  div.inv-second-content {
+    width: 100%;
+  }
+  .inv-second-container {
+    flex-direction: column;
+  }
   section.hero {
     flex-direction: column;
   }
@@ -178,6 +240,7 @@
   section.hero div.image img {
     margin-left: 133px;
   }
+
   .modern-ul li {
     width: 75%;
   }
