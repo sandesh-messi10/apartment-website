@@ -181,8 +181,11 @@
 }
 @media only screen and (max-width: 600px) {
   div.wrapper {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
+  }
+  section.hero div.image img {
+    margin-left: 133px;
   }
   .modern-ul li {
     width: 75%;
