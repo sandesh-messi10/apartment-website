@@ -43,6 +43,7 @@
 @media only screen and (max-width: 900px) {
   div.wrapper {
     width: 90%;
+    margin: 0 auto;
   }
   section.hero div.content {
     padding: 25px;
@@ -50,14 +51,6 @@
   }
 }
 @media only screen and (max-width: 800px) {
-  section.hero div.content {
-    background-color: var(--background-color);
-  }
-  footer {
-    width: 80%;
-    background-color: var(--background-color);
-  }
-
   div.modern-container {
     margin: 80px 0;
   }
@@ -73,10 +66,10 @@
 }
 @media only screen and (max-width: 800px) {
   .modern-container .image {
-    width: 6cqmin;
+    width: 80%;
   }
   .footer-description {
-    width: 50%;
+    width: 100%;
   }
   ul.apart-info {
     gap: 30px;
@@ -96,6 +89,10 @@
   div.image {
     width: 75%;
   }
+  .form-container h3 {
+    text-align: center;
+  }
+
   h2,
   h2 em {
     font-size: 20pt;
@@ -133,11 +130,14 @@
     gap: 20px;
     flex-direction: column;
   }
+  ul.apart-info li p {
+    font-size: 16px;
+  }
   div.text {
     flex-direction: column;
   }
   ul.contact-detail li {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
   input[type="text"],
@@ -240,7 +240,9 @@
   section.hero div.image img {
     margin-left: 133px;
   }
-
+  p.apart-description {
+    width: 100%;
+  }
   .modern-ul li {
     width: 75%;
   }

@@ -723,6 +723,8 @@ p.loc-small {
   background-color: rgb(250 250 250);
   width: 30%;
   flex-direction: column;
+  min-width: 400px;
+  margin: 0 auto;
 }
 .gallery-info {
   padding-left: 20px;
